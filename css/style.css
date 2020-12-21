@@ -37,14 +37,16 @@ body {
     display: table;
     height: 100%;
     width: 100%;
+    position: relative;
 }
 
 .education .education-boxes {
     color: #fff;
     position: absolute;
     text-align: center;
-    margin-top: 300px;
     vertical-align: middle;
+    bottom: 0;
+    right:30%;
 }
 
 .education .education-boxes .nav-tabs {
@@ -55,13 +57,24 @@ body {
 
 .education .education-boxes .nav-tabs li {
     margin-right: 20px;
+     background-color: #757575;
+    padding: 15px 20px;
+}
+
+.education .education-boxes .nav-tabs li.active {
+    margin-right: 20px;
     background-color: #2b9e8d;
-    padding: 20px;
+    padding: 15px 20px;
 }
 
 .education .education-boxes .nav-tabs li a {
     color: #fff;
 }
+
+.tab-content .nav-tabs {
+    margin-top: 10px;
+}
+
 
 /* start header style */
 /* start notification box */
